@@ -262,6 +262,7 @@ a.click-down:hover {
 	margin-right: 20px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	max-height: 200px;
 	}
 	
 .nav-pills a i {
@@ -1797,5 +1798,5 @@ a {
 
 }
 .tool-desc {
-	color: black;
+	color: rgba(255, 255, 255, 0.5)
 }
