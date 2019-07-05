@@ -270,8 +270,42 @@ a.click-down:hover {
 	text-align: center;
 	width: 100%;
 	}
+
+.wrapper {
+	display: grid;
+	/*grid-template-columns: 100px 100px;*/
+	grid-template-columns: 300px 300px 300px 400px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	margin-left: -650px;
+
+}
+
+.item0 {
+	grid-row: 1/2;
+}
+
+
+.item0 li a {
+	min-height: 450px;
+	padding-top: 150px;
+}
+
+.item1 li a {
+	min-height: 450px;
+	padding-top: 150px;
+}
+
+.item2 li a {
+	min-height: 450px;
+	padding-top: 150px;
+}
+
 	
-	
+.item6 {
+	grid-column: 1/5;
+}
 	
 	/*** LOGO ***/
 	
